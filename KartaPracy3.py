@@ -62,12 +62,13 @@
 #   suma = suma - x
 # print("Nie podałeś:", suma)
 
-print("Zadanie 6")
-n = int(input())
-a = 0
-b = 1
-print(a, end=" ")
-print(b, end=" ")
-for i in range(n-2):
-  a, b = b, a+b
-  print(b, end=" ")
+# print("Zadanie 6")
+# n = int(input())
+# a = 0
+# b = 1
+# print(a, end=" ")
+# print(b, end=" ")
+# for i in range(n-2):
+#   a, b = b, a+b
+#   print(b, end=" ")
+
