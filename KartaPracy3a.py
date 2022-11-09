@@ -104,51 +104,75 @@ n = int(input())
 #     print("*", end=" ")
 #   print()
 
-for i in range(n):
-  for j in range(n):
-    if i >= j:
-      print("*", end=" ")
-    else:
-      print(" ", end=" ")
-  print()  
-
-print()
-print()
-
-for i in range(n):
-  for j in range(n):
-    if i <= j:
-      print("*", end=" ")
-  print()
-
-print()
-print()
-
-for i in range(n):
-  for j in range(n):
-    if i + j == n - 1:
-      print("*", end=" ")
-    else:
-      print(" ", end=" ")
-  print()
-
-print()
-print()
-
-
-for i in range(n):
-  for j in range(n):
-    if i <= n - j - 1:
-      print("*", end=" ")
-    else:
-      print(" ", end=" ")
-  print()  
-
-print()
 
 # punkty (i, j)
-# (1, 1) (1, 2) (1, 3) (1, 4) (1, 5)
+# (1, 1) (1, 2) (1, 3) (1, 4) (1, 5) 
 # (2, 1) (2, 2) (2, 3) (2, 4) (2, 5)
 # (3, 1) (3, 2) (3, 3) (3, 4) (3, 5)
 # (4, 1) (4, 2) (4, 3) (4, 4) (4, 5)
 # (5, 1) (5, 2) (5, 3) (5, 4) (5, 5)
+
+
+# for i in range(n):
+#   for j in range(n):
+#     if i >= j:
+#       print("*", end=" ")
+#     else:
+#       print(" ", end=" ")
+#   print()  
+
+# print()
+# print()
+
+# for i in range(n):
+#   for j in range(n):
+#     if i <= j:
+#       print("*", end=" ")
+#   print()
+
+# print()
+# print()
+
+# for i in range(n):
+#   for j in range(n):
+#     if i + j == n - 1:
+#       print("*", end=" ")
+#     else:
+#       print(" ", end=" ")
+#   print()
+
+# print()
+# print()
+
+
+# for i in range(n):
+#   for j in range(n):
+#     if i <= n - j - 1:
+#       print("*", end=" ")
+#     else:
+#       print(" ", end=" ")
+#   print()  
+
+# print()
+
+# print("Zadanie 5")
+# for i in range(n):
+#   for j in range(n):
+#     if j == n//2:
+#       print("*", end=" ")
+#     elif i == n//2:
+#       print("-", end=" ")
+#     else:
+#       print(" ", end=" ")
+#   print()
+
+print("Zadanie 6")
+for i in range(n):
+  for j in range(n):
+    if i + j == n - 1:
+      print("?", end=" ")
+    elif i - j == 0:
+      print("*", end=" ")
+    else:
+      print(" ", end=" ")
+  print()
