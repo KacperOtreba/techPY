@@ -24,8 +24,8 @@
 
 # generator liczb pierwszych
 
-# p = int(input())
-# q = int(input())
+# p = int(input("Pocz tych liczb: "))
+# q = int(input("Kon tych liczb: "))
 # for i in range(p, q+1):
 #   flaga = True
 #   for j in range(2, int(i**0.5)+1):
@@ -49,5 +49,14 @@
 #             break
 #     x = x + 1
 
-# for i in range(1,999999999999):
-#   print(i)
+
+#przecwiczenie algorytmu spraw czy liczba jest pierwsza
+# temp = 0
+# n = int(input())
+# for i in range(1,n+1):
+#   if n % i == 0:
+#     temp += 1
+# if temp == 2:
+#     print("Liczba jest pierwsza")
+# else:
+#     print("Liczba nie jest pierwsza")

@@ -4,6 +4,7 @@ while a != b :
   if   a > b : a = a - b  # a -= b
   if   b > a : b = b - a  # b -= a
 print("NWD tych liczb to:", a)
+print()
 NWD = a
 NWW = temp // a
 print(f"NWD = {a}, NWW = {temp // a}")
