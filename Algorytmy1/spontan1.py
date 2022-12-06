@@ -13,7 +13,16 @@
 # else:
 #   print("Liczba nie jest 4-cyfrowa")
 
-from math import sqrt
-for i in range(1,1001):
-  if i % 10 == sqrt(i) or i % 100 == sqrt(i):
-       print(i)
+# from math import sqrt
+# for i in range(1,1001):
+#   if i % 10 == sqrt(i) or i % 100 == sqrt(i):
+#        print(i)
+
+
+# temp = 0
+# a = int(input())
+# b = int(input())
+# while b > 0:
+#   a, b = b, a%b
+# print("NWD", a)
+# print("NWW", temp // a)
