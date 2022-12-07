@@ -6,7 +6,7 @@
 # # 2 funkcja chr() - zwraca znak dla danego kodu ascii
 # print(chr(65))
 # print(chr(75))
-# print(chr(89))
+# print(chr(92))
 
 # # można łączyć....
 # print(chr(ord("H")))
@@ -14,8 +14,8 @@
 
 # napisz alfabet za pomocą petli for
 
-# for i in range(65,90):
-#   print(chr(i))
+# for i in range(1,99999):
+#   print(chr(i), end=" ")
 
 # jak wydobyć literki z napisu
 # napis = "POLSKA"
@@ -36,8 +36,8 @@
 #   print(ord(napis[i]))
 
 # zaszyfruj napis Cezarem dla kluczu = 3
-napis = input("Podaj napis a ja go zaszyfruje: ")
-szyfr = ""
-for i in range(len(napis)):
-  szyfr = szyfr + chr(65 + (ord(napis[i]) - 65 + 3) % 26)
-print(szyfr)
+# napis = input("Podaj napis a ja go zaszyfruje: ")
+# szyfr = ""
+# for i in range(len(napis)):
+#   szyfr = szyfr + chr(65 + (ord(napis[i]) - 65 + 3) % 26)
+# print(szyfr)
