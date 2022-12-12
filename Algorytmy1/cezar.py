@@ -4,7 +4,7 @@
 # print(ord("Z"))
 
 # # 2 funkcja chr() - zwraca znak dla danego kodu ascii
-# print(chr(65))
+# print(chr(256))
 # print(chr(75))
 # print(chr(92))
 
