@@ -63,3 +63,36 @@
 # print(a // nwd)
 # print("---")
 # print(b // nwd)
+
+print("Zadanie 7")
+licz = int(input("Podaj licznik: "))
+mian = int(input("Podaj mianownik: "))
+x = licz
+y = mian
+temp = x * y
+while y > 0:
+  x, y = y, x % y
+
+
+
+# print("Zadanie 8")
+# T = []
+# for i in range(2,1000001):
+#   suma1 = 0
+#   for j in range(1,i):
+#     if i % j == 0:
+#       suma1 += j
+#   T.append(suma1)
+#   suma2 = 0
+#   for k in range(1,suma1):
+#     if suma1 % k == 0:
+#       suma2 += k
+#   if i == suma2 and suma1 != suma2 and suma2 not in T:
+#     print(f"({suma1}, {suma2})")
+
+# print("Zadanie 9")
+# def czy_pierwsza(n):
+#   for i in range(2,n):
+#     if n % i == 0:
+#       return False
+#   return True
