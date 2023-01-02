@@ -64,14 +64,14 @@
 # print("---")
 # print(b // nwd)
 
-print("Zadanie 7")
-licz = int(input("Podaj licznik: "))
-mian = int(input("Podaj mianownik: "))
-x = licz
-y = mian
-temp = x * y
-while y > 0:
-  x, y = y, x % y
+# print("Zadanie 7")
+# licz = int(input("Podaj licznik: "))
+# mian = int(input("Podaj mianownik: "))
+# x = licz
+# y = mian
+# temp = x * y
+# while y > 0:
+#   x, y = y, x % y
 
 
 
@@ -96,3 +96,5 @@ while y > 0:
 #     if n % i == 0:
 #       return False
 #   return True
+
+print("Zadanie 10")

@@ -2,10 +2,9 @@
 # for i in range(1,32):
 #   print("Dzień:", i)
 
-
 # print("Zadanie 2")
 # for i in range(1,10):
-#   if i % 2 == 1:
+#   if i % 2 != 0:
 #     print(i**2)
 
 # print("Zadanie 3")
@@ -45,7 +44,7 @@
 # a = int(input("Wartość początkowa inwestycji: "))
 # b = int(input("Długośc inwestycji w latach: "))
 # koncowy = 0
-# suma = koncowy
+# suma = a
 # for i in range(0,b * 12):
 #     koncowy = suma * 0.06 * (1/12)
 #     suma += koncowy
@@ -60,12 +59,11 @@
 #   liczba += 100
 # print(suma)
 
-
-# from math import sqrt
-
 # print("Zadanie 10")
+# from math import sqrt
 # for i in range(1,1001):
 #   if sqrt(i) == i%10:
 #     print(i)
 #   elif sqrt(i) == i%100:
 #     print(i)
+
