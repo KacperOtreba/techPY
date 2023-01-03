@@ -31,7 +31,6 @@
 # print("Zadanie 4")
 # a = int(input("Podaj 1 liczbe: "))
 # b = int(input("Podaj 2 liczbe: "))
-# temp = a * b
 # while b > 0:
 #   a, b = b, a % b
 # nwd = a
@@ -67,14 +66,13 @@
 # print("Zadanie 7")
 # licz = int(input("Podaj licznik: "))
 # mian = int(input("Podaj mianownik: "))
-# x = licz
-# y = mian
-# temp = x * y
-# while y > 0:
-#   x, y = y, x % y
-
-
-
+# if licz % mian > 0:
+#     calosci = licz // mian
+#     reszta = licz % mian
+#     print(f"Wyciagniete calosci z tego ulamka: {calosci} i {reszta}/{mian}")
+# else:
+#     print("Ulamek jest wlasciwy")
+  
 # print("Zadanie 8")
 # T = []
 # for i in range(2,1000001):
@@ -97,4 +95,4 @@
 #       return False
 #   return True
 
-print("Zadanie 10")
+# print("Zadanie 10")
