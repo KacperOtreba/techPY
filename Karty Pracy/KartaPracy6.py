@@ -78,7 +78,121 @@
 #   if n == ilosc:
 #     print(suma)
 #     break
-#   if i == 101:
+#   if i == 99:
 #     print("OUT OF RANGE")
 
-print("Zadanie 8")
+# print("Zadanie 8")
+# n = int(input("Ile powtorzen chcesz: "))
+# suma = 0
+# rytm = 2
+# for i in range(n):
+#   if i % 2 != 0:
+#     rytm *= -1
+#     suma += rytm
+#     rytm *= -1
+#   else:
+#     suma += rytm
+#   rytm += 3
+# print(suma)
+
+# print("Zadanie 9")
+# n = int(input("Ile powtorzeń: "))
+# iloczyn = 1
+# for i in range(2, n+2):
+#     rytm *= 2
+#     if i % 2 == 0:
+#         rytm *= -1
+#         iloczyn *= rytm
+#         rytm *= -1
+#     else:
+#         iloczyn *= rytm
+# print(iloczyn)
+
+
+# print("Zadanie 10")
+# n = int(input("Jak dlugi:"))
+# suma = 0
+# silnia = 1
+# rytm = 1
+# for i in range(n):
+#     iloczyn += silnia
+#     silnia *= rytm
+#     rytm += 1
+
+# print(suma)
+
+
+# print("Zadanie 11")
+# n = int(input("Jak dlugi: "))
+# suma = 0
+# licznik = 1
+# mianownik = 1
+# for i in range(n):
+#     suma += licznik / mianownik
+#     licznik += 2
+#     mianownik += licznik
+
+# print(suma)
+
+
+# print("Zadanie 12")
+# n = int(input("Jak dlugi: "))
+# licznik = 0
+# mianownik = 0
+# ciag1 = 1
+# ciag2 = 1
+# for i in range(n):
+#     licznik += ciag1
+#     mianownik += ciag2
+#     ciag1 += 2
+#     ciag2 += ciag1
+
+# print(licznik/mianownik)
+
+
+# print("Zadanie 13")
+# n = int(input("Jak dlugi: "))
+# suma = 0
+# licznik = 2
+# mianownik = 3
+# for i in range(2, n+2):
+#     suma += licznik / mianownik
+#     licznik += 2
+#     mianownik = (i**3)+2
+
+# print(suma)
+
+
+# print("Zadanie 15")
+# licznik = 1
+# mianownik = 1
+# ciag1 = 3
+# ciag2 = 1
+# for i in range(n):
+#     licznik *= ciag1
+#     mianownik *= ciag2
+#     ciag1 += 1
+#     ciag2 = (ciag2*2)+1
+
+# print(licznik / mianownik)
+
+
+# print("Zadanie 16")
+# n = int(input("Jak dlugi: "))
+# licznik = 1
+# mianownik = 1
+# ciag1 = 1
+# ciag2 = 1
+# fib1 = 1
+# fib2 = 1
+# sumafib = 0
+# for i in range(n):
+#     licznik *= ciag1
+#     mianownik *= ciag2
+#     sumafib = fib1 + fib2
+#     fib1 = fib2
+#     fib2 = sumafib
+#     ciag1 = sumafib
+#     ciag2 *= 2
+
+# print(licznik / mianownik)
