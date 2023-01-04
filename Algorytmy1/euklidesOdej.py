@@ -16,3 +16,4 @@ print("NWD tych liczb to:", a)
 #   if a > b : a -= b
 #   if b > a : b -= a
 # print(a)
+

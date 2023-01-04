@@ -9,3 +9,14 @@ print("Największy wspólny dzielnik tych liczb to: ", a)
 # while b > 0:
 #   a, b = b, a%b
 # print(a)
+
+
+
+##################  PSEUDOKOD
+# a
+# b
+# dopóki b > 0
+#   temp = a mod b
+#   a = b
+#   b = temp
+# wypisz "a"
