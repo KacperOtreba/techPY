@@ -8,11 +8,11 @@
 
 # print("Zadanie 2")
 # n = int(input())
-# suma = 0
+# dzielniki = 0
 # for i in range(1, n+1):
 #   if n % i == 0:
-#     suma += 1
-# if suma == 2:
+#     dzielniki += 1
+# if dzielniki == 2:
 #   print("TAK")
 # else:
 #   print("NIE")
@@ -47,7 +47,7 @@
 #   while y > 0:
 #     x, y = y, x % y
 #   nwd = x 
-#   if x == 1:
+#   if nwd == 1:
 #     print(n,i)
 
 # print("Zadanie 6")
@@ -58,21 +58,29 @@
 # while y > 0:
 #   x, y = y, x % y
 # nwd = x
-
 # print(a // nwd)
 # print("---")
 # print(b // nwd)
 
 # print("Zadanie 7")
-# licz = int(input("Podaj licznik: "))
-# mian = int(input("Podaj mianownik: "))
-# if licz % mian > 0:
-#     calosci = licz // mian
-#     reszta = licz % mian
-#     print(f"Wyciagniete calosci z tego ulamka: {calosci} i {reszta}/{mian}")
-# else:
-#     print("Ulamek jest wlasciwy")
-  
+# a = int(input("Podaj licznik: "))
+# b = int(input("Podaj mianownik: "))
+# liczba = 0
+# X = a
+# Y = b
+# while a != b:
+#     if a > b:
+#         a -= b
+#     else:
+#         b -= a
+# X = X // a
+# Y = Y // b
+
+# if X >= Y:
+#     liczba = X // Y
+#     X -= Y * liczba
+# print(f"{liczba} i {X}/{Y}")
+
 # print("Zadanie 8")
 # T = []
 # for i in range(2,1000001):
